@@ -6,7 +6,11 @@ const printToDom = (stringToPrint, divID) => {
 const domString = (animalArray) => {
     let stringToPrint = "";
     animalArray.forEach((item) => {
-        stringToPrint += `<div class="cardz">`;
+        if(item.isCarnivore){
+        stringToPrint += `<div class="cardz carnivore">`;
+        } else {
+        stringToPrint += `<div class="cardz vegetable">`;
+        }
         stringToPrint +=   `<h1>${item.name}</h1>`;
         stringToPrint +=   `<h3>${item.number}</h3>`;
         stringToPrint +=   `<img src="${item.imageUrl}" alt="RAWR!">`;

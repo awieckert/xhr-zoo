@@ -25,3 +25,11 @@ body {
     max-width: 300px;
     max-height: 300px;
 }
+
+.carnivore {
+    background-color: red;
+}
+
+.vegetable {
+    background-color: green;
+}
