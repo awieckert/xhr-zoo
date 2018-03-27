@@ -6,7 +6,14 @@ const printToDom = (stringToPrint, divID) => {
 const domString = (animalArray) => {
     let stringToPrint = "";
     animalArray.forEach((item) => {
-        stringToPrint += `<h1>${item.name}</h1>`;
+        stringToPrint += `<div class="cardz">`;
+        stringToPrint +=   `<h1>${item.name}</h1>`;
+        stringToPrint +=   `<h3>${item.number}</h3>`;
+        stringToPrint +=   `<img src="${item.imageUrl}" alt="RAWR!">`;
+        stringToPrint +=   `<div class="button-container">`;
+        stringToPrint +=     `<button type="submit">Escaped</button>`;
+        stringToPrint +=   `</div>`;
+        stringToPrint +=  `</div>`;
     });
     printToDom(stringToPrint, "zoo");
 }
