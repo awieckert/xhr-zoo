@@ -1,1 +1,109 @@
-HI
+{
+    "animals": [
+        {
+            "name": "AXOLOTL",
+            "type": "Amphibian",
+            "number": 1,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_axolotl-web.jpg"
+        },
+        {
+            "name": "HELLBENDER",
+            "type": "Amphibian",
+            "number": 2,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_hellbender-sm.jpg"
+        },
+        {
+            "name": "SURINAM TOAD",
+            "type": "Amphibian",
+            "number": 3,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_surinam-toad-web.jpg"
+        },
+        {
+            "name": "RHINOCEROS HORNBILL",
+            "type": "Bird",
+            "number": 4,
+            "isCarnivore": false,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_rhinohornbill1.jpg"
+        },
+        {
+            "name": "HYACINTH MACAW",
+            "type": "Bird",
+            "number": 5,
+            "isCarnivore": false,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_hyacinthmacaw3-sq.jpg"
+        },
+        {
+            "name": "MANDARIN DUCK",
+            "type": "Bird",
+            "number": 6,
+            "isCarnivore": false,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_mandarinduck1.jpg"
+        },
+        {
+            "name": "LINED SEAHORSE",
+            "type": "Fish",
+            "number": 7,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_lined-seahorse.jpg"
+        },
+        {
+            "name": "LIONFISH",
+            "type": "Fish",
+            "number": 8,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_lionfish1.jpg"
+        },
+        {
+            "name": "PIRANHA",
+            "type": "Fish",
+            "number": 9,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_piranha2.jpg"
+        },
+        {
+            "name": "CLOUDED LEOPARD",
+            "type": "Mammal",
+            "number": 10,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_cloudedleopard7.jpg"
+        },
+        {
+            "name": "COUGAR",
+            "type": "Mammal",
+            "number": 11,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_cougar5.jpg"
+        },
+        {
+            "name": "RED PANDA",
+            "type": "Mammal",
+            "number": 12,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_redpanda4.jpg"
+        },
+        {
+            "name": "ALLIGATOR SNAPPING TURTLE",
+            "type": "Reptile",
+            "number": 13,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_alligator-snapping-turtle.jpg"
+        },
+        {
+            "name": "EYELASH PALM PIT VIPER",
+            "type": "Reptile",
+            "number": 14,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/12_eyelashviper-web.jpg"
+        },
+        {
+            "name": "KOMODO DRAGON",
+            "type": "Reptile",
+            "number": 15,
+            "isCarnivore": true,
+            "imageUrl": "https://www.speakcdn.com/assets/2147/komodo-blog.jpg"
+        },
+    ]
+}
