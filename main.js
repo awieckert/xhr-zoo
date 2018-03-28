@@ -40,7 +40,7 @@ const animalEscaped = () => {
 const showCarnivores = () => {
     const carnivores = document.getElementsByClassName('carnivore');
     for(let i = 0; i < carnivores.length; i++){
-        carnivores[i].children[3].innerHTML = "";
+        carnivores[i].children[3].innerHTML = `<button class="found" type="submit">Found</button>`;
         carnivores[i].classList.add('red');
     }
 }
@@ -48,7 +48,7 @@ const showCarnivores = () => {
 const showVegetables = () => {
     const veggies = document.getElementsByClassName('vegetable');
     for(let i = 0; i < veggies.length; i++){
-        veggies[i].children[3].innerHTML = "";
+        veggies[i].children[3].innerHTML = `<button class="eat-me" type="submit">EAT ME!!!!</button>`;
         veggies[i].classList.add('green');
     }
 }
