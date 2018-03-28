@@ -31,16 +31,35 @@ const addEscapedEvenListeners = () => {
     }
 }
 
-const animalEscaped = () => {
-
+const animalEscaped = (e) => {
+    const badAnimalButton = e.target.parentNode;
     showCarnivores();
     showVegetables();
+    showFoundButton(badAnimalButton);
+}
+
+const showFoundButton = (buttonContainer) => {
+    buttonContainer.innerHTML = `<button id="found">Found</button>`;
+    initilizeFoundButton();
+}
+
+const initilizeFoundButton = () => {
+    const foundButton = document.getElementById('found');
+    foundButton.addEventListener('click', () => {
+        const animals = document.getElementsByClassName('cardz');
+        for(let i = 0; i < animals.length; i++){
+            animals[i].children[3].innerHTML = `<button class="escaped" type="submit">Escaped</button>`;
+            animals[i].classList.remove('green');
+            animals[i].classList.remove('red');
+        }
+        addEscapedEvenListeners();
+    });
 }
 
 const showCarnivores = () => {
     const carnivores = document.getElementsByClassName('carnivore');
     for(let i = 0; i < carnivores.length; i++){
-        carnivores[i].children[3].innerHTML = `<button class="found" type="submit">Found</button>`;
+        carnivores[i].children[3].innerHTML = "";
         carnivores[i].classList.add('red');
     }
 }
@@ -48,6 +67,9 @@ const showCarnivores = () => {
 const showVegetables = () => {
     const veggies = document.getElementsByClassName('vegetable');
     for(let i = 0; i < veggies.length; i++){
+        console.log("Veggies Variable: ", veggies)
+        console.log("For Loop i value: ", i);
+        console.log("Veggies Index: ", veggies[i]);
         veggies[i].children[3].innerHTML = `<button class="eat-me" type="submit">EAT ME!!!!</button>`;
         veggies[i].classList.add('green');
     }
