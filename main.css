@@ -26,10 +26,16 @@ body {
     max-height: 300px;
 }
 
-.carnivore {
+.red {
     background-color: red;
 }
 
-.vegetable {
+.green {
     background-color: green;
+}
+
+.carnivore {
+}
+
+.vegetable {
 }
